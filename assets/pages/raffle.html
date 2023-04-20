@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../Coffee-Task1/logo.png" type="image/x-icon">
+    <title>Raffle| Daflogui</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+                <a href="../index.html"><img src="../Coffee-Task1/logo.png" alt="logo"></a> 
+            </div>
+        <nav>  
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/abotUs.html">About Us</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/table.html">More information</a></li>
+                <li><a href="../pages/benefits.html">Benefits</a></li>
+                <li><a href="#">Raffle</a></li>
+            </ul>     
+        </nav>
+    </header>
+    <main class="raffle-main">
+        <h1>Raffle</h1>
+        <h3>You can participate in a raffle. The price is a coffee pot</h3>
+        <div class="space">
+            <div class="img-raffle">
+                <img src="../Coffee-Task4/cup-w-coffee.jpg" alt="cup-w-coffee">
+                <img src="../Coffee-Task4/heart-coffee.jpg" alt="heart-coffee">
+            </div>
+            <div>
+                <form action="../pages/show_data.html" method="get">
+                    <fieldset>
+                            <label for="fname">First Name</label>
+                            <input type="text" name="first-name" id="fname">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="last-name" id="lname">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                            <label for="color">What color would you like the coffee pot:</label>
+                            <select name="color" id="color">
+                                <option value="">select:</option>
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                                <option value="yellow">Yellow</option>
+                            </select>
+                            <label for="country">Country:</label>
+                            <select name="country" id="country">
+                                <option value="">select:</option>
+                                <option value="argentina">Argentina</option>
+                                <option value="francia">Francia</option>
+                                <option value="brasil">Brasil</option>
+                                <option value="nigeria">Nigeria</option>
+                            </select>
+                        <fieldset class="radio">
+                            <label>Payment Options:</label>
+                            <label for="cash">
+                                Cash
+                            <input class="circle" type="radio" name="payment" id="cash">
+                            </label>
+                            <label for="credit">
+                                Credit Card
+                            <input class="circle" type="radio" name="payment" id="credit">
+                            </label>
+                            <label for="debit">
+                                Debit Card
+                            <input class="circle" type="radio" name="payment" id="debit">
+                            </label>
+                        </fieldset>
+                        <label for="services">Services</label>
+                        <textarea name="services" id="services" cols="30" rows="10"></textarea>
+                        <label  for="terms">
+                            I accept terms and conditions...
+                            <input class="checkbox" type="checkbox" name="terms" id="terms">
+                        </label>
+                        <input class="button" type="submit" value="Send">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="mailto:DafloguiCakeCoffee@gmail.com">Email: DafloguiCakeCoffee@gmail.com</a></li>
+            <li class="telephone"><a href="tel:+177123100">Tel: +177123100</a></li>
+        </ul>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450940.65506881!2d-82.78396002020602!3d27.994695900759925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1681920344680!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,476 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: beige;
+    min-height: 160vh;
+}
+
+
+/*----------------------------------header*/
+
+
+header{
+    border: solid black 2px;
+    padding: 1rem;
+    background-color: rgb(165, 124, 42);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 1rem;
+}
+
+
+
+
+header img{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+
+/*-------------------------------------main*/
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+
+}
+
+h3{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 5rem;
+}
+
+
+section img{
+    width: 90%;
+    height: 50vh;
+    object-fit: cover; 
+}
+
+
+.information{
+display: flex;
+justify-content: center;
+}
+
+.center{
+    width: 90%;
+}
+
+
+.information p{
+    width: 20%;
+}
+
+.coffee{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.coffee img{
+    width: 40%;
+}
+
+.coffee p{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.paddle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem;
+}
+
+
+.paddle img{
+width: 20%;
+}
+
+.paddle p{
+    width: 15rem;
+}
+
+.contact-paragraph{
+    display: flex;
+    justify-content: center;
+    padding: 25vh;
+}
+
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.list img{
+    width: 30%;
+}
+
+
+.width-list{
+    width: 50%;
+    margin-left: 30vw;
+}
+
+.numerator{
+    list-style-type: decimal;
+}
+
+.no{
+    list-style-type: none;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+table,tr,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 10rem;
+    width: 30%;
+}
+
+.details{
+    background-color: rgb(165, 124, 42);
+    width: 10%;
+}
+
+.main-raffle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-raffle{
+    width: 80%;
+}
+
+.img-raffle img{
+    width: 40%;
+    display: flex;
+    margin: 3rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    width: 40%;
+}
+
+.space{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input{
+    width: 100%;
+}
+
+fieldset{
+    border: none;
+}
+
+label{
+    display: flex;
+    justify-content: start;
+    margin-top: 1rem;
+
+}
+
+select{
+    width: 100%;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.circle{
+    width: 5%;
+
+}
+
+.checkbox{
+    width: 10%;
+}
+
+.button{
+    margin-top: 1rem;
+}
+
+/*--------------------------footer*/
+footer{
+    background-color: rgb(165, 124, 42);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    body{
+        background-color: beige;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abtUs{
+        min-height: 100vh;
+    }
+
+
+
+    thead,tbody, tr, td{
+        padding: 1.5rem;
+    }
+
+    .table{
+        margin-bottom: 10vh;
+    }
+
+    .table-main{
+        min-height: 100vh;
+    }
+
+    .coffee{
+        display: flex;
+        align-items: center;
+    }
+
+    .coffee img{
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-paragraph{
+        padding: 1rem;
+    }
+
+    .paddle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paddle img{
+        width: 100%;
+    }
+
+    .paddle p{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .list img{
+        width: 50%;
+    }
+
+    .width-list{
+        width: 80%;
+        margin-left: 0;
+    
+    }
+
+    .benef-main{
+        min-height:100vh;
+    }
+
+    .raffle-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }   
+
+    .space{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+.img-raffle img{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+
+    .raffle-main h3{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+
+    }
+
+
+    form{
+        margin-left: 25vw;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    body{
+        background-color: beige;
+    }
+    
+    main{
+        min-height: 100vh;
+    }
+
+    .abtUs{
+        min-height: 100vh;
+    }
+
+    .table-main{
+        min-height: 100vh;
+    }
+
+
+    .paddle{
+        width: 90%;
+    }
+
+    .paddle img{
+        width: 50%;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .list img{
+        width: 90%;
+    }
+
+    
+    .benef-main{
+        min-height:100vh;
+    }
+
+    .width-list{
+        width: 60%;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .coffee{
+        margin-bottom: 3rem;
+    }
+
+    .coffee img{
+        height: 20vh;
+    }
+
+    .space img{
+        width: 80%;
+
+    }
+
+    .img-raffle{
+        width: 100%;
+    }
+
+    .contact-paragraph{
+        padding: 3rem;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
